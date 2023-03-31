@@ -73,7 +73,7 @@ int lengthList(struct Node* head){ //listenin eleman sayisini int turunden geri 
 	while(current!=NULL){ 
 		count++;
 		current=current->next; 
-	
+	}
 	return count;
 }
 
